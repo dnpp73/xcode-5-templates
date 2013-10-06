@@ -1,11 +1,3 @@
-//
-//  ___FILENAME___
-//  ___PROJECTNAME___
-//
-//  Created by ___FULLUSERNAME___ on ___DATE___.
-//___COPYRIGHT___
-//
-
 #import <SenTestingKit/SenTestingKit.h>
 
 @interface ___FILEBASENAMEASIDENTIFIER___ : ___VARIABLE_testSubclass___
@@ -22,7 +14,7 @@
 
 - (void)tearDown
 {
-    // Put teardown code here. This method is called after the invocation of each test method in the class. 
+    // Put teardown code here. This method is called after the invocation of each test method in the class.
     [super tearDown];
 }
 
