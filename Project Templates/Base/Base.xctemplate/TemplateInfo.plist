@@ -100,7 +100,7 @@
 			<key>GCC_WARN_UNDECLARED_SELECTOR</key>
 			<string>YES</string>
 			<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-			<string>YES</string>			
+			<string>YES</string>
 			<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
 			<string>YES_ERROR</string>
 			<key>CLANG_ENABLE_OBJC_ARC</key>
@@ -154,14 +154,7 @@
 	<key>Definitions</key>
 	<dict>
 		<key>*:comments</key>
-		<string>//
-//  ___FILENAME___
-//  ___PACKAGENAME___
-//
-//  Created by ___FULLUSERNAME___ on ___DATE___.
-//___COPYRIGHT___
-//
-</string>
+		<string></string>
 		<key>*:import:*</key>
 		<string>#import &quot;___*___&quot;
 </string>
@@ -171,12 +164,7 @@
 		<key>___PACKAGENAME___-Prefix.pch</key>
 		<dict>
 			<key>Beginning</key>
-			<string>//
-//  Prefix header
-//
-//  The contents of this file are implicitly included at the beginning of every source file.
-//
-</string>
+			<string></string>
 			<key>Group</key>
 			<string>Supporting Files</string>
 			<key>TargetIndices</key>
