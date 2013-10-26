@@ -1,9 +1,11 @@
 #import "___FILEBASENAME___.h"
 ___COREDATAMANAGEDOBJECTIMPORTEDHEADERS___
 
+
 @interface ___FILEBASENAMEASIDENTIFIER___ ()
 
 @end
+
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 

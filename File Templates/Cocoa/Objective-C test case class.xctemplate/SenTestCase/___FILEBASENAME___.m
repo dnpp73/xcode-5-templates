@@ -1,8 +1,10 @@
 ___IMPORTHEADER_testSubclass___
 
+
 @interface ___FILEBASENAMEASIDENTIFIER___ : ___VARIABLE_testSubclass___
 
 @end
+
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
