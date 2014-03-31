@@ -156,14 +156,7 @@
 	<key>Definitions</key>
 	<dict>
 		<key>*:comments</key>
-		<string>//
-//  ___FILENAME___
-//  ___PACKAGENAME___
-//
-//  Created by ___FULLUSERNAME___ on ___DATE___.
-//___COPYRIGHT___
-//
-</string>
+		<string></string>
 		<key>*:import:*</key>
 		<string>#import &quot;___*___&quot;
 </string>
@@ -173,12 +166,7 @@
 		<key>___PACKAGENAME___-Prefix.pch</key>
 		<dict>
 			<key>Beginning</key>
-			<string>//
-//  Prefix header
-//
-//  The contents of this file are implicitly included at the beginning of every source file.
-//
-</string>
+			<string></string>
 			<key>Group</key>
 			<string>Supporting Files</string>
 			<key>TargetIndices</key>

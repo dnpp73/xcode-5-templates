@@ -1,11 +1,3 @@
---
---  ___VARIABLE_classPrefix:identifier___AppDelegate.applescript
---  ___PACKAGENAME___
---
---  Created by ___FULLUSERNAME___ on ___DATE___.
---___COPYRIGHT___
---
-
 script ___VARIABLE_classPrefix:identifier___AppDelegate
 	property parent : class "NSObject"
 	
