@@ -5,7 +5,7 @@
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Identifier</key>
-	<string>com.apple.dt.unit.cocoaAppleScriptApplication</string>
+	<string>com.apple.dt.unit.cocoaApplicationAppleScript</string>
 	<key>Concrete</key>
 	<true/>
 	<key>Description</key>
@@ -30,6 +30,8 @@
 		<dict>
 			<key>Identifier</key>
 			<string>documentBased</string>
+			<key>NotPersisted</key>
+			<true/>
 			<key>Name</key>
 			<string>Create Document-Based Application</string>
 			<key>Description</key>
@@ -45,8 +47,8 @@
 					<key>Nodes</key>
 					<array>
 						<string>Base.lproj/MainMenu.xib</string>
-						<string>___VARIABLE_classPrefix:identifier___Document.applescript</string>
-						<string>Base.lproj/___VARIABLE_classPrefix:identifier___Document.xib</string>
+						<string>___VARIABLE_classPrefix:identifier___CustomDocument.applescript</string>
+						<string>Base.lproj/___VARIABLE_classPrefix:identifier___CustomDocument.xib</string>
 						<string>___PACKAGENAME___-Info.plist:DocumentTypes</string>
 					</array>
 					<key>Definitions</key>
@@ -56,12 +58,12 @@
 							<key>Path</key>
 							<string>MainMenuDoc.xib</string>
 						</dict>
-						<key>Base.lproj/___VARIABLE_classPrefix:identifier___Document.xib</key>
+						<key>Base.lproj/___VARIABLE_classPrefix:identifier___CustomDocument.xib</key>
 						<dict>
 							<key>Path</key>
 							<string>Document.xib</string>
 						</dict>
-						<key>___VARIABLE_classPrefix:identifier___Document.applescript</key>
+						<key>___VARIABLE_classPrefix:identifier___CustomDocument.applescript</key>
 						<dict>
 							<key>Path</key>
 							<string>Document.applescript</string>
@@ -85,7 +87,7 @@
 		&lt;key&gt;CFBundleTypeRole&lt;/key&gt;
 		&lt;string&gt;Editor&lt;/string&gt;
 		&lt;key&gt;NSDocumentClass&lt;/key&gt;
-		&lt;string&gt;___VARIABLE_classPrefix:identifier___Document&lt;/string&gt;
+		&lt;string&gt;___VARIABLE_classPrefix:identifier___CustomDocument&lt;/string&gt;
 	&lt;/dict&gt;
 &lt;/array&gt;
 </string>

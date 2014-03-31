@@ -4,7 +4,7 @@
 --  Created by ___FULLUSERNAME___ on ___DATE___.
 --___COPYRIGHT___
 
-script ___VARIABLE_classPrefix:identifier___Document
+script ___VARIABLE_classPrefix:identifier___CustomDocument
 	property parent : class "NSDocument"
 	
 	on init()
@@ -19,7 +19,7 @@ script ___VARIABLE_classPrefix:identifier___Document
 	on windowNibName()
 		-- Override returning the nib file name of the document
 		-- If you need to use a subclass of NSWindowController or if your document supports multiple NSWindowControllers, you should remove this method and override -makeWindowControllers instead.
-		return "___VARIABLE_classPrefix:identifier___Document"
+		return "___VARIABLE_classPrefix:identifier___CustomDocument"
 	end windowNibName
 	
 	on windowControllerDidLoadNib_(aController)

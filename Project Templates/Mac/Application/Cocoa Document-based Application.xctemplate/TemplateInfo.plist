@@ -5,12 +5,14 @@
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Identifier</key>
-	<string>com.apple.dt.unit.cocoaDocumentBasedApplication</string>
+	<string>com.apple.dt.unit.cocoaApplicationDocumentBased</string>
 	<key>Options</key>
 	<array>
 		<dict>
 			<key>Identifier</key>
 			<string>documentBased</string>
+			<key>NotPersisted</key>
+			<true/>
 			<key>Name</key>
 			<string>Create Document-Based Application</string>
 			<key>Description</key>

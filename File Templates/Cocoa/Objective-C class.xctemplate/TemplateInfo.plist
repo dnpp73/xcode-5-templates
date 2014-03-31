@@ -46,6 +46,10 @@
 			<true/>
 			<key>Suffixes</key>
 			<dict>
+				<key>NSDocument</key>
+				<string>Document</string>
+				<key>NSView</key>
+				<string>View</string>
 				<key>NSViewController</key>
 				<string>ViewController</string>
 				<key>NSWindowController</key>
@@ -65,14 +69,19 @@
 		<dict>
 			<key>Default</key>
 			<string>true</string>
+			<key>Description</key>
+			<string>Whether to create a XIB file with the same name</string>
 			<key>Identifier</key>
-			<string>withXIBMac</string>
+			<string>XIB</string>
 			<key>Name</key>
-			<string>With XIB for user interface</string>
+			<string>Also create XIB file for user interface</string>
+			<key>NotPersisted</key>
+			<true/>
 			<key>RequiredOptions</key>
 			<dict>
 				<key>cocoaSubclass</key>
 				<array>
+					<string>NSDocument</string>
 					<string>NSViewController</string>
 					<string>NSWindowController</string>
 				</array>

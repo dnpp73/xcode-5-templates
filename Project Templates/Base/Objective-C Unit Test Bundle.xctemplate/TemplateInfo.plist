@@ -28,7 +28,7 @@
 			<key>Values</key>
 			<array>
 				<string>XCTest</string>
-				<string>OCUnit (Xcode 4 compatible)</string>
+				<string>OCUnit (Deprecated)</string>
 			</array>
 			<key>Default</key>
 			<string>XCTest</string>
@@ -92,7 +92,7 @@
 						</array>
 					</dict>
 				</array>
-				<key>OCUnit (Xcode 4 compatible)</key>
+				<key>OCUnit (Deprecated)</key>
 				<array>
 					<dict>
 						<key>SortOrder</key>

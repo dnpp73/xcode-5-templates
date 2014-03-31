@@ -9,6 +9,9 @@
 script ___VARIABLE_classPrefix:identifier___AppDelegate
 	property parent : class "NSObject"
 	
+	-- IBOutlets
+	property window : missing value
+	
 	on applicationWillFinishLaunching_(aNotification)
 		-- Insert code here to initialize your application before any files are opened 
 	end applicationWillFinishLaunching_
