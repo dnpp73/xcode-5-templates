@@ -1,23 +1,12 @@
-//
-//  ___FILENAME___
-//  ___PROJECTNAME___
-//
-//  Created by ___FULLUSERNAME___ on ___DATE___.
-//___COPYRIGHT___
-//
-
 #import "___FILEBASENAME___.h"
 
-@implementation ___FILEBASENAMEASIDENTIFIER___
 
-- (id)init
-{
-    self = [super init];
-    if (self) {
-        // Add your subclass-specific initialization here.
-    }
-    return self;
-}
+@interface ___FILEBASENAMEASIDENTIFIER___ ()
+
+@end
+
+
+@implementation ___FILEBASENAMEASIDENTIFIER___
 
 /*
 - (NSString *)windowNibName
