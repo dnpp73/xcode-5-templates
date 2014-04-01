@@ -1,4 +1,4 @@
-#import <XCTest/XCTest.h>
+___IMPORTHEADER_testSubclass___
 
 
 @interface ___FILEBASENAMEASIDENTIFIER___ : ___VARIABLE_testSubclass___
